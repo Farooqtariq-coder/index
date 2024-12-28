@@ -2100,3 +2100,18 @@ cursor: pointer;
 header{
     z-index: 50000000000000000000000000000000000;
 }
+@media screen and (max-width:400px){
+.btn-icon-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+    gap: 1rem;
+    flex-direction: column;
+
+}}
+@media screen and (max-width:990px){
+.nav__links  li {
+    margin-bottom: 1rem;
+    background-color: white;
+}}
