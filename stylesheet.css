@@ -2115,3 +2115,14 @@ header{
     margin-bottom: 1rem;
     background-color: white;
 }}
+.btn-icon .btn-class{
+    background-color: brown;
+    color:white;
+    font-weight: 600;
+    padding: 1rem;
+    width: 150px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .25s;
+    text-align: center;
+}
