@@ -2109,7 +2109,20 @@ header{
     gap: 1rem;
     flex-direction: column;
 
-}}
+}
+.grid-2-flex-card-1 button{
+    font-weight: 400;
+    font-size: .6rem;
+}
+    
+.grid-2-flex-card-1 button:hover{
+background-color: white;
+color: black;
+font-weight: 400;
+cursor: pointer;
+
+}
+}
 @media screen and (max-width:990px){
 .nav__links  li {
     margin-bottom: 1rem;
